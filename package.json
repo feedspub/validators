@@ -1,6 +1,6 @@
 {
 	"name": "@feedspub/validators",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "username, email and other validators for Feeds.pub",
 	"license": "MIT",
   "repository": {
