@@ -1,16 +1,22 @@
 {
-	"name": "@timqian/npm-package-template",
-	"version": "0.0.0",
-	"description": "A dead-simple template to write and publish npm packages",
+	"name": "@feedspub/validators",
+	"version": "0.0.4",
+	"description": "username, email and other validators for Feeds.pub",
 	"license": "MIT",
-	"repository": "timqian/npm-package-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feedspub/validators.git"
+  },
 	"author": "timqian",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"files": [
+		"index.js"
+	],
 	"keywords": [
-		"template",
-		"npm",
-		"package"
-	]
+		"validators",
+		"feedspub"
+	],
+	"dependencies": {}
 }
