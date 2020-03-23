@@ -1,6 +1,8 @@
 # validators
 
-A simple module(no dependency) to validate username, email and more for [Feeds Pub](https://feeds.pub)
+A simple module(no dependency) to validate username, email and more for [Feeds Pub](https://feeds.pub).
+
+Reusable on frontend and backend.
 
 ## Install
 
