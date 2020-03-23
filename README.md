@@ -11,9 +11,16 @@ npm install validators
 ## Usage
 
 ```js
-const { isEmail, isUsername } = require('@feedspub/validators');
+const { isEmail, isUsername, isPassword } = require('@feedspub/validators');
 
 // true
 isEmail('timqian@t9t.io');
-isUsername('timqian')
+isUsername('timqian');
+isPassword('fidslde');
 ```
+
+## Validating Rules
+
+- email: `/\S+@\S+\.\S+/`
+- username: `/^[a-zA-Z0-9\-\_]+$/`
+- password: `length > 6`

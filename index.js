@@ -9,7 +9,12 @@ const isUsername = (name) => {
   return re.test(name);
 }
 
+const isPassword = (password) => {
+  return password.length > 6;
+}
+
 module.exports = {
   isEmail,
   isUsername,
+  isPassword,
 }
