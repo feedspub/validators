@@ -10,7 +10,7 @@ const isUsername = (name) => {
 }
 
 const isPassword = (password) => {
-  if(password.length < 6) throw new Error('Password at least 8 characters');
+  if(password.length < 8) throw new Error('Password at least 8 characters');
 }
 
 module.exports = {
